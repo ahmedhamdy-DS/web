@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+  <defs>
+    <linearGradient id="visorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8b4fe"/>
+      <stop offset="45%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </linearGradient>
+    <linearGradient id="visorSheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#visorGrad)" d="
+    M 8,68
+    L 392,15
+    C 397,14 400,18 400,24
+    L 400,155
+    C 400,182 383,204 355,210
+    L 55,210
+    C 25,210 8,186 8,155
+    Z
+  "/>
+  <path fill="url(#visorSheen)" d="
+    M 8,68
+    L 392,15
+    C 397,14 400,18 400,24
+    L 400,90
+    L 8,120
+    Z
+  "/>
+  <path fill="none" stroke="#f3e8ff" stroke-width="1.2" stroke-opacity="0.55" d="M 18,76 L 388,24"/>
+  <text x="200" y="165" text-anchor="middle" font-family="Poppins, sans-serif" font-size="36" font-weight="700" fill="#faf5ff" opacity="0.95">AI</text>
+  <circle cx="55" cy="175" r="3" fill="#f3e8ff" opacity="0.6"/>
+  <circle cx="345" cy="175" r="3" fill="#f3e8ff" opacity="0.6"/>
+</svg>

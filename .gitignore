@@ -1,0 +1,15 @@
+# Python & Virtual Environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node & Frontend
+node_modules/
+
+# IDEs
+.vscode/
+
+# Large data or OS files
+.DS_Store
+*.db
